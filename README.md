@@ -1,4 +1,4 @@
-# Package Name
+# Lara Maintenance
 
 Description
 
@@ -11,7 +11,7 @@ PHP: >=7.1
 ## Install
 
 ```bash
-$ composer require rockbuzz/package-name
+$ composer require rockbuzz/lara-maintenance
 ```
 
 ## Configuration
@@ -21,4 +21,4 @@ $ composer require rockbuzz/package-name
 
 ## License
 
-The Tdw RDB is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The Lara Maintenance is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
