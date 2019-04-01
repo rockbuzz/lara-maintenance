@@ -41,8 +41,8 @@ class Authorize
 
     private function getClientIp($request)
     {
-        if (isset($_SERVER['HTTP_X_REAL_IP'])) {
-            return $_SERVER['HTTP_X_REAL_IP'];
+        if (isset($_SERVER[config('maintenance.server_key_client_ip')])) {
+            return $_SERVER[config('maintenance.server_key_client_ip')];
         }
         return $request->getClientIp();
     }

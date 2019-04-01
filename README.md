@@ -1,8 +1,6 @@
 # Lara Maintenance
 
-Description
-
-travis markdown
+Puts the application into maintenance mode for all IPs that are not configured as an exception.
 
 ## Requirements
 
@@ -15,8 +13,18 @@ $ composer require rockbuzz/lara-maintenance
 ```
 
 ## Configuration
-```php
 
+```bash
+$ php artisan vendor:publish --provider="Rockbuzz\LaraMaintenance\ServiceProvider" --tag="config"
+```
+
+## Usage
+### In App\Http\Kernel
+```php
+protected $middleware = [
+        \Rockbuzz\LaraMaintenance\Authorize::class,
+        ...
+    ];
 ```
 
 ## License
