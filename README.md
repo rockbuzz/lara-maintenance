@@ -26,6 +26,12 @@ protected $middleware = [
         ...
     ];
 ```
+### In .env
+```php
+APP_MAINTENANCE_MODE=true
+APP_MAINTENANCE_EXCEPT="127.0.0.2, 127.0.0.3"
+```
+
 
 ## License
 

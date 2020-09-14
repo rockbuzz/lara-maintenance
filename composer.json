@@ -1,16 +1,16 @@
 {
   "name": "rockbuzz/lara-maintenance",
-  "description": "",
+  "description": "Middleware to manage maintenance mode with ips activation",
   "keywords": [],
   "license": "MIT",
   "authors": [
     {
       "name": "TiagoDevWeb",
-      "email": "tiago.desenvolvedorweb@gmail.com"
+      "email": "tiago@rockbuzz.com.br"
     },
     {
       "name": "Paulo Henrique P. Scheuermann",
-      "email": "paetzold44@gmail.com"
+      "email": "paulo@rockbuzz.com.br"
     }
   ],
   "autoload": {
@@ -32,7 +32,7 @@
     "squizlabs/php_codesniffer": "^3.2"
   },
   "scripts": {
-    "test": "vendor/bin/phpunit --testdox",
+    "test": "vendor/bin/phpunit",
     "cs": "vendor/bin/phpcs"
   },
   "extra": {
