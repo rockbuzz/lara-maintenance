@@ -26,7 +26,11 @@ protected $middleware = [
         ...
     ];
 ```
-
+### In .env
+```php
+APP_MAINTENANCE_MODE=true
+APP_MAINTENANCE_EXCEPT="127.0.0.2, 127.0.0.3"
+```
 ## License
 
 The Lara Maintenance is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
