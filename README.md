@@ -4,7 +4,7 @@ Puts the application into maintenance mode for all IPs that are not configured a
 
 ## Requirements
 
-PHP: >=7.1
+PHP: >=7.2
 
 ## Install
 
